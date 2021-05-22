@@ -20,7 +20,7 @@ function preload(){
 function setup() {
   createCanvas(400, 400);
   
-  //crear el fondo
+  //crea el fondo
   scene = createSprite(0,0,400,400);
   scene.addImage(backgroundImage);
   scene.scale = 2.5
